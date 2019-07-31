@@ -1,0 +1,75 @@
+
+
+#navber .container h1 {
+    float: none;
+    text-align: center;
+    padding: 20px;
+    
+    
+ 
+}
+#navber h1{
+    display: block;
+}
+    
+
+#navber ul,
+#navber ul li{
+    float: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+
+#navber ul li a {
+    padding: 5px;
+    border-bottom: #444 solid 1px;
+}
+#slideshow .text-primary {
+    float: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+}
+
+
+#home {
+    height: 450px;
+}
+#home .home-img{
+    display: none;
+}
+#home .home-content {
+    float: none;
+    width: 100%;
+}
+
+.box {
+    float: none;
+    width: 100%;
+}
+
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: 100px;
+    
+}
+
+#about-info .info-right {
+    margin-top: 30px;
+}
+
+
+
+.1-heading {
+    text-aling: center;
+}
+
+#contact-info .box {
+    border-bottom: #444 dotted 1px;
+    float: none;
+    width: 100%;
+}

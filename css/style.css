@@ -1,0 +1,320 @@
+/* base Element */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ 
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7rem;
+}
+   
+h1, h2, h3 {
+    padding: 20px;
+    
+}
+
+p{
+    margin: 20px 0;
+}
+/* Utiltes */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 20px;
+
+    
+
+    
+}
+
+.light{
+    background-color: #f4f4f4;
+}
+.light p{
+    color: #333;
+}
+.dark{
+    background-color: orange;
+}
+
+
+
+
+
+/* Navber */
+#navber {
+    background-color: #333;
+    overflow: hidden;
+    
+
+}
+#navber h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+#navber h1 {
+    float: left;
+    
+    
+    
+}
+#navber ul {
+    float: right;
+    list-style-type: none;
+}
+#navber ul li {
+    float: left;
+}
+ul li a {
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+   
+    
+}
+ul li a:hover{
+    background-color: yellow;
+    color:wheat;
+}
+
+/* Slideshow */
+#slideshow{
+    background-image: url(../img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+#slideshow .slideshow-content {
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+
+}
+
+#slideshow .slideshow-content h1 {
+    font-size: 60px;
+    padding: 20px;
+
+}
+.text-primary{
+    color: orange;
+}
+
+p{
+    color:white;
+
+}
+.btn{
+    color: white;
+    padding: 20px;
+    background-color: black;
+    border: 1px black solid;
+
+
+}
+.btn:hover{
+    background-color: orange;
+    color: #333;
+}
+
+/* Home */
+#home{
+    background-color: #333;
+    height: 300px;
+    overflow: hidden;
+
+}
+#home .home-img{
+    background-image: url(../img/photo-5.jpg);
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+#home .home-content {
+    float: right;
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    
+}
+.btn-light{
+    background-color: white;
+    color: #333;
+}
+.btn:hover{
+    background-color:orange;
+    color:white;
+    
+}
+
+#features{
+ 
+}
+
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+    text-align: center;
+    height: 400px;
+    
+}
+#main-footer {
+    background-color: #444;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.clr{
+    clear: both;
+}
+
+/* About info */
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    height: 100%;
+
+}
+
+#about-info .info-right img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+
+/* padding */
+.py-1 {
+    padding: 10px 0;
+}
+.py-2 {
+    padding: 20px 0;
+}
+.py-3 {
+    padding: 30px 0;
+}
+
+/* Heading */
+
+.1-heading{
+    font-size:40px;
+
+}
+
+/* testimonials */
+
+#testimonials {
+    height: 600px;
+    background-image: url(../img/test-bg44.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px;
+
+}
+#testimonials h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonials{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0,9;
+}
+
+#testimonials .testimonial img {
+    
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+p{
+    color: black;
+}
+#testimonials .testimonial {
+    background: orange;
+    padding: 20px;
+}
+
+/* contact form */
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+
+}
+#contact-form textarea {
+    height: 200px;
+} 
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+
+}
+
+#contact-info{
+    background-color: #444;
+    color: white;
+    border: 1px black solid;
+    
+}
+
+#contact-info p {
+    color: white;
+    
+    
+}
+footer p{
+    color: white;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
